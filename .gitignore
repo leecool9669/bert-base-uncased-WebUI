@@ -1,4 +1,3 @@
-fairface_repo/
 *.bin
 *.safetensors
 *.h5

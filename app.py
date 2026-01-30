@@ -11,7 +11,6 @@ def run_fill_mask(text: str):
         return "请在输入框中输入包含 [MASK] 的英文句子，例如：Paris is the [MASK] of France."
     if MASK_TOKEN not in text:
         return "输入中需包含 [MASK] 占位符。示例：The goal of life is [MASK]."
-    # 演示模式：返回示例格式
     lines = [
         "【演示模式】未加载模型，以下为示例输出格式：\n",
         "输入句子：" + text.strip(),
